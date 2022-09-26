@@ -1,20 +1,41 @@
+body {
+	width: 1366px;
+}
+
 #wrapper {
-	width: 1920px;
+	width: 1366px;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom: white;
 }
 
 #header {
-	width: 1920px;
+	width: 1366px;
 	height: 100px;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 }
 
-#content{
-	width: 1920px;
+#content {
+	width: 1366px;
 	margin: 0;
+}
+
+#hobby-content {
+	padding-top: 300px;
+}
+
+#contact-content {
+	text-align: center;
+}
+
+#social-media {
+	
+}
+
+h1 {
+	text-align: center;
+	font: "FreightBig Pro Black", serif;
 }
 
 ul {
@@ -30,6 +51,16 @@ li {
     grid-template-columns: 275px 275px 275px 275px;
 }
 
+#about-gallery {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+}
+
+#contact-gallery {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+}
+
 #footer {
 	width: 1920px;
 	margin: 0;
@@ -37,3 +68,5 @@ li {
 }
 
 .center { text-align: center; }
+
+.about {padding-top: 30px;}
