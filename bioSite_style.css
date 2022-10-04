@@ -52,22 +52,28 @@ h1 {
 	text-align: center;
 	font-family: "FreightBig Pro Black", "Le Monde Livre Std", "Realist Light";
 	font-size: 80px;
+	color: #532B74;
 }
 
 h2 {
 	text-align: center;
 	font-family: "Realist Light", serif;
 	font-size: 40px;
+	color: black;
+	text-shadow: 2px 2px 1px #86BBF6;
 }
 
 h4 {
 	font-family: "Realist Light", serif;
 	font-size: 25px;
+	text-shadow: 2px 2px 1px #FFFF67;
 }
 
 h5 {
 	text-align: center;
-	font-family: "Le Monde Livre Std", "Realist Light"
+	font-family: "Le Monde Livre Std", "Realist Light";
+	text-decoration: underline;
+	text-decoration-color: #FFFF67;
 }
 
 ul {
@@ -121,9 +127,21 @@ li {
 	padding-left: 30px;
 }
 
+#shadow {
+	box-shadow: 3px 3px 10px #532B74;
+}
+
+#highlight {
+	box-shadow: 3px 3px 10px #FFFF67;
+}
+
 a {
 	text-decoration: none;
 	color: black;
+}
+
+a:hover {
+	text-shadow: 2px 2px 2px #FF7ED9;
 }
 
 p {
@@ -133,6 +151,7 @@ p {
 figcaption {
 	font-family: "Le Monde Livre Std", serif;
 	font-size: 13px;
+	color: #2B35AD;
 }
 
 .center { text-align: center; }
@@ -152,6 +171,10 @@ figcaption {
 .footer {
 	font-family: "Le Monde Livre Std", serif;
 	font-size: 12px;
+	color: #FF7ED9;
 }
 
+.left {
+	text-align: left;
+}
 
